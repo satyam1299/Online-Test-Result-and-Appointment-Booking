@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:ital@1&family=Source+Code+Pro&display=swap');
+
+.navbar {
+    background-color: black;
+    column-count: 2;
+    column-gap: 60px;
+    position: sticky;
+    top: 0;
+}
+.brand {
+    display: flex;
+}
+div > img {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.brand h2 {
+    padding-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: azure;
+}
+.menu {
+    float: right;
+}
+ul > li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color:white; 
+}
+li a:hover {   
+    color: yellow;
+}
+
+/*Footer styling*/
+footer {
+    background-color: black;
+    column-count: 2;
+    column-gap: 200px;
+    column-rule: 2px solid white;
+    padding: 10px 15px;
+}
+.last {
+    color: aliceblue;
+}
+.footer-content {
+    color: yellow;
+    font-weight: bold;
+    font-size: 23px;
+}

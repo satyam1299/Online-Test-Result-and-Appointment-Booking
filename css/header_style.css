@@ -1,0 +1,65 @@
+body {
+    padding: 5px auto;
+    background-size: cover;
+}
+.container-fluid {
+    width: 100%;
+    height: 323px;
+    background-size: 100% 80% !important;
+    background-image: url(img/header_img4.jpg);
+    background-repeat: no-repeat;
+}
+
+/*Logo*/
+.brand {
+    float: left;
+    display: flex;
+}
+.brand h2 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/*this is for present menu*/
+.menu {
+    background-color: #1f1f21!important;
+    width: auto;
+    height:50px;
+}
+.topic {
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.navbar-default {
+    background-color: #1f1f21!important;
+    border-color: black;
+}
+.menu ul {
+    margin: 0;
+    padding: 0px 5px;
+    list-style: none;
+    text-align: right;
+}
+.menu ul li {
+    float: left;
+    border-right: 1px solid black;
+    position: static;
+    text-align: right;
+}
+.menu ul li:last-child {
+    border-right: 0px solid black;
+}
+.menu ul li a {
+    background: rgba(20, 21, 23, 0.99);
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu ul li a:hover {
+    background: #fff;
+    color: #000;
+}

@@ -1,0 +1,15 @@
+.content1 {
+    column-count: 2;
+    column-gap: 20px;
+
+}
+.content1 {
+    display: flex;
+
+}
+.img1 {
+    border-radius: 0px 151px 150px 0px;
+}
+.img2 {
+    border-radius: 150px 0px 0px 150px;
+}
